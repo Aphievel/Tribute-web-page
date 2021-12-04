@@ -1,4 +1,4 @@
 #main {
-	width: 600px;
-	margin: auto;
+	display: grid;
+	place-items: center;
 }
