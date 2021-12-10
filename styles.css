@@ -2,3 +2,46 @@
 	display: grid;
 	place-items: center;
 }
+#img-caption {
+	padding: 10px;
+}
+#image {
+	width: 50%;
+	max-width: 100%;
+}
+#img-div {
+	display: grid;
+	place-items: center;
+}
+article {
+	font-size: 20px;
+}
+#quote {
+	display: grid;
+	font-family: "Parisienne", cursive;
+	font-size: 35px;
+	place-items: center;
+}
+@media (max-width: 480px) {
+	#image {
+		width: 100%;
+	}
+	article {
+		font-size: 16px;
+	}
+	#quote {
+		font-size: 22px;
+	}
+	h2 {
+		font-size: 16px;
+	}
+}
+@media (min-width: 610px) {
+	#title {
+		font-size: 80px;
+		margin: 0;
+	}
+	#subtitle {
+		font-size: 30px;
+	}
+}
